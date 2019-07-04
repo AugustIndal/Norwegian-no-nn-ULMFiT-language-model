@@ -18,7 +18,7 @@ data_lm = TextLMDataBunch.from_df(path="",vocab=vocab,
                                   train_df=df_train, valid_df=df_valid, bs=96, num_workers=0)
                                   
 learn = language_model_learner(data_lm, AWD_LSTM, drop_mult=0.1, pretrained=False).to_fp16(clip=0.1)
-learn.load_encoder('lm_wiki_encoder)
+learn.load_encoder('lm_wiki_encoder')
 learn.freeze()
 
 lr=1e-2
