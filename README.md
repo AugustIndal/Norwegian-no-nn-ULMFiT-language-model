@@ -7,6 +7,7 @@ Vocabular size: 32768
 Perplexity:22.294086
 
 # Example of usage
+```
 from fastai.text import *
 
 train_df = [somedata]
@@ -25,3 +26,4 @@ learn.fit_one_cycle(1, lr, moms=(0.8,0.7))
 learn.unfreeze()
 lr /= 10
 learn.fit_one_cycle(5, lr, moms=(0.8,0.7)) 
+```
