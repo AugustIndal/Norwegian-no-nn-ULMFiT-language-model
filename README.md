@@ -4,7 +4,7 @@ Trained on norwegian and nynorsk wikipedia. Used 85476 articles with a minimum w
 
 Vocabular size: 32768
 
-Perplexity:22.294086
+Perplexity: 22.294086
 
 # Example of usage
 Fine tuning the model on new text
