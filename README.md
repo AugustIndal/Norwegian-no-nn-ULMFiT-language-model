@@ -10,8 +10,8 @@ Perplexity:22.294086
 ```
 from fastai.text import *
 
-train_df = [somedata]
-valid_df = [somedata]
+df_train = [somedata]
+df_valid = [somedata]
 
 vocab = Vocab.load('lm_vocab_32k_wiki')
 data_lm = TextLMDataBunch.from_df(path="",vocab=vocab,
