@@ -7,6 +7,7 @@ Vocabular size: 32768
 Perplexity:22.294086
 
 # Example of usage
+Fine tuning the model on new text
 ```
 from fastai.text import *
 
